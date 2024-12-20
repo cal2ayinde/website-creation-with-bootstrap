@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Car-eShop</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <style>
+        /* Full height for carousel items */
+        .carousel-item {
+            height: 100vh;
+            background-position: center;
+            background-size: cover;
+        }
+
+        /* Position header content over carousel */
+        .header-content {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            color: white;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+            text-align: center;
+        }
+        
+        /* Footer styling */
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #f8f9fa;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#">Car-eShop</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Products</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">About</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+            <li class="nav-item">
+                <a class="nav-link" href="#"><i class="fas fa-shopping-cart"></i> Cart</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+<!-- Carousel for Background -->
+<div id="carouselBackground" class="carousel slide" data-ride="carousel">
+    <div class="carousel-inner">
+        <div class="carousel-item active" style="background-image: url('50a6ceb82aabe25267abb4f7f7b85ddb.jpg');">
+            <div class="header-content">
+                <h1 class="display-4">Welcome to Car-eShop!</h1>
+                <p class="lead">Your one-stop shop for all amazing things.</p>
+                <a class="btn btn-primary btn-lg" href="#" role="button">Shop Now</a>
+            </div>
+        </div>
+        <div class="carousel-item" style="background-image: url('2023-Mercedes-AMG-C43-sedan-9.jpg.avif');">
+            <div class="header-content">
+                <h1 class="display-4">Explore Our Products!</h1>
+                <p class="lead">Find what you need at unbeatable prices.</p>
+                <a class="btn btn-primary btn-lg" href="#" role="button">Shop Now</a>
+            </div>
+        </div>
+        <div class="carousel-item" style="background-image: url('2024-Mercedes-Benz-E-Class-European-front-three-quarters.jpg.avif');">
+            <div class="header-content">
+                <h1 class="display-4">Join Us Today!</h1>
+                <p class="lead">Become a part of our shopping family.</p>
+                <a class="btn btn-primary btn-lg" href="#" role="button">Shop Now</a>
+            </div>
+        </div>
+    </div>
+    <a class="carousel-control-prev" href="#carouselBackground" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#carouselBackground" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+    </a>
+</div>
+
+<!-- Products Section -->
+<div class="container my-5">
+    <div class="row">
+        <!-- Example Product Card -->
+        <div class="col-md-4">
+            <div class="card product-card">
+                <img src="./arenaev_002.jpg" class="card-img-top" alt="Product Image" />
+                <div class="card-body">
+                    <h5 class="card-title">2025 Mercedes-AMG C-Class</h5>
+                    <p class="card-text">$ Call for price</p>
+                    <a href="#" class="btn btn-primary">Add to Cart</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card product-card">
+                <img src="./2023-Mercedes-AMG-C43-sedan-9.jpg.avif" class="card-img-top" alt="Product Image" />
+                <div class="card-body">
+                    <h5 class="card-title">2023 Mercedes-Benz C-Class</h5>
+                    <p class="card-text">$44,850 - $59,900</p>
+                    <a href="#" class="btn btn-primary">Add to Cart</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card product-card">
+                <img src="./2024_mercedes-benz_sl-class-pic-3096116545386561149-1024x768.jpeg" class="card-img-top" alt="Product Image" />
+                <div class="card-body">
+                    <h5 class="card-title">2024 Mercedes-Benz SL-Class AMG SL 55 4MATIC</h5>
+                    <p class="card-text">$163,800</p>
+                    <a href="#" class="btn btn-primary">Add to Cart</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card product-card">
+                <img src="./9a664610ebca2bf8247b865bfdd73fd0x.jpg" class="card-img-top" alt="Product Image" />
+                <div class="card-body">
+                    <h5 class="card-title">C-Class 4MATIC</h5>
+                    <p class="card-text">$57,310</p>
+                    <a href="#" class="btn btn-primary">Add to Cart</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card product-card">
+                <img src="./2024-Mercedes-Benz-E-Class-European-front-three-quarters.jpg.avif" class="card-img-top" alt="Product Image" />
+                <div class="card-body">
+                    <h5 class="card-title">2024 Mercedes-Benz E-Class</h5>
+                    <p class="card-text">$62,300 - $74,700</p>
+                    <a href="#" class="btn btn-primary">Add to Cart</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card product-card">
+                <img src="./50a6ceb82aabe25267abb4f7f7b85ddb.jpg" class="card-img-top" alt="Product Image" />
+                <div class="card-body">
+                    <h5 class="card-title">2025 Mercedes-Benz G-550 SUV</h5>
+                    <p class="card-text">$159,765</p>
+                    <a href="#" class="btn btn-primary">Add to Cart</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Footer -->
+<footer>
+    <p>&copy; 2024 eShop. All rights reserved.</p>
+</footer>
+
+<script>
+    $(document).ready(function(){
+        $('.carousel').carousel({
+            interval: 5000 // Change slide every 5 seconds
+        });
+    });
+</script>
+
+</body>
+</html>
+
